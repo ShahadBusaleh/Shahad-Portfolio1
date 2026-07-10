@@ -1,0 +1,465 @@
+Shahad Busaleh Project Portfolio
+Travel-In — AI Travel Concierge (Winner – Rkiza V-Camp 2026)
+Project Overview
+Travel-In is an AI-powered travel concierge platform designed to generate fully personalized travel plans based on user preferences such as destination, budget, and trip duration. The system delivers dynamic, editable itineraries that include accommodations, transportation, and activity recommendations.
+The platform follows an AI-first approach, enabling users to continuously modify their plans in real-time, adapting to changes in schedule or preferences without restarting the planning process.
+This project was recognized as a winning solution at Rkiza V-Camp 2026, highlighting its innovation, technical execution, and real-world applicability in the travel technology space.
+
+Project Objectives
+Build an intelligent travel planning system powered by AI
+Generate complete itineraries (hotels, transport, activities) dynamically
+Enable real-time plan modification and user interaction
+Integrate scalable architecture for future API expansion (travel providers)
+Deliver a seamless and user-friendly experience
+
+My Role – Full Stack Developer & AI System Designer
+Led the design and development of the platform from concept to implementation, focusing on both system architecture and AI integration.
+
+Key Contributions
+Designed and implemented an AI-driven itinerary generation system based on user inputs (budget, destination, duration)
+Built a dynamic travel plan editor, allowing users to modify schedules, reorder days, and adjust activities in real time
+Developed front-end interfaces based on custom UI/UX designs (Figma)
+Integrated AI capabilities using prompt engineering and structured response handling
+Architected the system to support future integration with external travel APIs (e.g., flights, hotels)
+Customized and extended a SaaS starter kit to accelerate development and ensure scalability
+Ensured a user-centric experience with flexible and interactive planning workflows
+
+System Features
+1. AI-Powered Itinerary Generation
+Personalized travel plans generated instantly
+Considers budget, travel dates, and destination
+Outputs structured daily schedules
+2. Dynamic Plan Customization
+Edit activities, reorder days, and adjust timelines
+Flexible planning without regenerating the entire trip
+Supports user-driven decision changes
+3. Integrated Travel Components
+Suggested hotels, transportation, and activities
+Designed to support both local and global travel scenarios
+Future-ready for API integrations (e.g., Expedia, Amadeus alternatives)
+4. AI-First User Experience
+Conversational and adaptive interaction model
+Continuous refinement of plans based on user input
+
+Technologies Used
+Frontend
+React / Next.js (via SaaS starter kit)
+Tailwind CSS / Modern UI components
+Figma (UI/UX Design)
+Backend
+Node.js / Full-stack SaaS architecture
+API-based system design
+AI & Integration
+OpenAI API (prompt engineering, response structuring)
+Dynamic content generation
+Tools & Workflow
+Git & GitHub
+Figma (design handoff)
+Modular SaaS starter architecture
+
+Technical Challenges & Solutions
+Challenge 1: Dynamic Itinerary FlexibilityCreating a system that allows users to modify travel plans without breaking the structure.
+Solution:Designed modular itinerary components with independent logic, enabling partial updates instead of full regeneration.
+
+Challenge 2: AI Response StructuringEnsuring AI-generated plans are consistent, usable, and editable.
+Solution:Implemented structured prompting techniques and standardized response formats to maintain reliable outputs.
+
+Challenge 3: Scalability for Real Travel DataPreparing the system for future integration with external APIs.
+Solution:Built a decoupled architecture with clear integration layers to support third-party travel services.
+
+Impact
+Won Rkiza V-Camp 2026 as an innovative AI-driven solution
+Demonstrated strong capability in combining AI + full-stack development
+Showcased real-world application of AI in travel and user personalization
+Built a scalable foundation for a production-level travel platform
+
+Skills Demonstrated
+AI System Design & Prompt Engineering
+Full Stack Development (Modern Web Stack)
+Dynamic UX & Interactive Systems
+API Architecture & Integration Planning
+Product Thinking & User-Centered Design
+Rapid Prototyping & Startup-Oriented Development
+
+Project Significance
+This project represents the ability to design and deliver an AI-first product that goes beyond traditional CRUD systems, focusing on intelligent automation, user personalization, and scalable architecture—key competencies for modern software engineering roles.
+
+IT Equipment Issuance Management System
+Project Overview
+Enterprise-grade web application designed to manage IT equipment issuance requests through a structured multi-step approval workflow. The system digitizes internal equipment request processes and ensures accountability, traceability, and secure approvals.
+The application was deployed in a private organizational server environment using Microsoft IIS, enabling secure intranet access for authorized users.
+
+My Role – Full Stack Developer
+Designed and implemented core workflow logic for multi-step approvals
+Built controllers, services, and Razor views following ASP.NET Core MVC architecture
+Integrated Microsoft Graph API for automated email notifications
+Implemented Microsoft-based authentication for secure user sign-in
+Implemented PDF generation (English & Arabic) using QuestPDF
+Configured SQL Server database and managed EF Core migrations
+Implemented cookie-based authentication and role-based authorization
+Deployed and configured the system on IIS (application pool setup, permissions, hosting configuration)
+
+Core Features
+Multi-Role Architecture
+Preparer
+Issuer
+Receiver
+Admin
+Each role has defined permissions and responsibilities within the workflow.
+Three-Step Approval Workflow
+Preparer creates and submits equipment request
+Issuer reviews and approves/rejects or requests modification
+Receiver acknowledges receipt via secure email link
+System generates final PDF and notifies all parties
+Email Automation
+Submission notifications
+Approval / rejection alerts
+Modification requests
+Completion notifications
+Implemented using Microsoft Graph API with secure application permissions
+PDF Generation
+Dynamic PDF generation in English and Arabic
+Generated upon workflow completion
+Server-side storage with controlled write permissions
+Security Implementation
+EF Core parameterized queries (SQL injection prevention)
+Anti-forgery tokens (CSRF protection)
+Razor HTML encoding (XSS protection)
+Secure password hashing
+HTTPS enforcement in production
+HTTP-only secure cookies
+Authorization checks on protected endpoints
+
+Technical Architecture
+Backend
+ASP.NET Core MVC (.NET 8 / .NET 10)
+Entity Framework Core
+SQL Server
+Services Layer
+Email service integration (Microsoft Graph)
+PDF generation service (QuestPDF)
+Frontend
+Razor Views
+Bootstrap 5
+jQuery
+Responsive layout design
+Authentication & Authorization
+Microsoft-based authentication integration
+ASP.NET Core Cookie Authentication
+Enum-based role management
+Status-driven workflow state management
+
+Deployment & Environment
+Published and deployed to a private Windows Server environment
+Configured IIS website and dedicated application pool
+Applied database migrations in production
+Configured secure environment settings
+Tested workflow, email notifications, authentication, and PDF generation in production-like conditions
+
+Skills Demonstrated
+Enterprise Workflow Design
+Secure Web Application Development
+Role-Based Access Control (RBAC)
+Microsoft Graph API Integration
+Server-Side PDF Generation (QuestPDF)
+Production Deployment on IIS
+SQL Server Configuration & Optimization
+Secure Authentication Implementation
+
+Research Mission Facilitation System
+Project Overview
+The Research Mission Facilitation System is a web-based platform designed to digitally manage research facilitation requests for researchers inside and outside the university. The system streamlines submission, scientific review, ethical review, and administrative oversight through a structured multi-stage workflow.
+The platform supports digital transformation by replacing manual research approval processes with an organized, trackable, and role-based system.
+
+Project Objectives
+Digitize research facilitation request processes
+Enable multi-level scientific and ethical review workflows
+Provide role-based access control for different user types
+Improve transparency and tracking of request status
+Support bilingual interface (Arabic & English)
+Generate automated research posters for approved requests
+
+My Role – Full Stack Developer (Trainee & Volunteer)
+As a Full Stack Developer Trainee, I contributed to enhancing and maintaining the ASP.NET Core MVC system in a real institutional environment.
+Key Contributions
+Fixed backend logic issues and improved feature stability
+Enhanced Razor views and front-end components using HTML, CSS, and Bootstrap
+Implemented full Arabic–English localization using .resx files and culture middleware
+Improved database logic and optimized queries using EF Core and LINQ
+Contributed to improving multi-role workflow handling
+Provided technical clarification notes to support alignment between system implementation and user documentation
+
+System Architecture & Features
+1. Multi-Role Access Control
+The system supports multiple roles with different permissions:
+Research Applicant (Internal / External / Scholarship)
+Scientific Reviewer
+Ethics Reviewer
+Administrator
+Each role has a dedicated dashboard and workflow responsibilities.
+2. Research Request Submission
+Create and manage research requests
+Upload required documents (ethical approval, CVs, official letters, etc.)
+Track request status (Under Review, Approved, Rejected)
+3. Scientific & Ethical Review Workflow
+Multi-stage approval process
+Accept / Reject decisions with mandatory comments
+Automated routing between reviewers
+4. Search & Filtering
+Search by request number
+Filter by researcher type, submission date, or status
+Improved usability for reviewers handling large volumes
+5. Automated Poster Generation
+Dynamic poster generation using approved request data
+Downloadable as PDF
+Includes interactive survey link
+6. Bilingual Interface
+Complete Arabic–English localization
+Culture-based UI switching
+Consistent translation across layouts and components
+
+Technologies Used
+Backend
+ASP.NET Core MVC
+C#
+Entity Framework Core
+LINQ
+SQL Server
+Frontend
+Razor Views
+HTML5
+CSS3
+Bootstrap
+JavaScript
+Tools & Workflow
+Git & GitHub
+Visual Studio
+Role-based authentication & authorization
+
+Technical Challenges & Solutions
+Challenge 1: Localization Consistency
+Ensuring full UI translation without breaking layout or validation messages.
+Solution:
+Implemented .resx resource files
+Used culture middleware for dynamic language switching
+Verified translations across layouts and partial views
+Challenge 2: Workflow Logic Handling
+Managing multi-stage approval logic without data inconsistencies.
+Solution:
+Improved conditional backend logic
+Refined status tracking fields
+Optimized EF Core queries to ensure accurate state transitions
+Challenge 3: Database Optimization
+Handling search and filtering efficiently.
+Solution:
+Improved LINQ query structure
+Reduced unnecessary database calls
+Enhanced indexing strategy
+
+Impact
+Contributed to improving a real institutional system used for managing research workflows
+Enhanced usability for multiple academic roles
+Supported digital transformation initiatives
+Strengthened system performance and reliability
+
+Skills Demonstrated
+Full Stack Development
+Institutional Workflow Design
+Localization Implementation
+Database Optimization
+Multi-Role System Architecture
+Production-Level Collaboration
+
+# AI Meeting Assistant (MOM) — Project Portfolio
+
+**Organization:** Al Gosaibi
+**Product:** Minutes of Meeting (MOM) — AI Meeting Assistant
+**Production URL:** `https://itonline.algosaibi.sa/mom/`
+**Role:** Enterprise integration, deployment, and full-stack delivery
+
+---
+
+## Executive Summary
+
+The **AI Meeting Assistant (MOM)** is an enterprise web application that lets employees record meetings in the browser, capture live transcription, generate AI summaries, produce formal **Minutes of Meeting (MOM)** documents, and distribute them via PDF and Microsoft Graph email — all inside the company **IT Online Portal** with **single sign-on** through Microsoft Entra ID.
+
+The system was designed for a **two-server Windows architecture**: an ASP.NET portal server handles authentication and YARP reverse proxy; a dedicated MOM server runs Next.js, FastAPI, LM Studio, and SQLite. Employees never see a second login or a separate MOM hostname in the address bar.
+
+---
+
+## Business Problem
+
+Manual meeting minutes are slow, inconsistent, and hard to share across departments. The organization needed a solution that:
+
+- Works inside the existing employee portal (not a standalone public app)
+- Respects corporate identity (Entra ID SSO)
+- Produces formal MOM documents with attendees and action items
+- Integrates with Outlook calendar and email
+- Keeps transcription load off the central server where possible
+- Runs on on-premise Windows infrastructure
+
+---
+
+## Solution Overview
+
+| Capability | How it works |
+|------------|----------------|
+| **Record** | Browser `MediaRecorder` + microphone |
+| **Transcribe** | Browser **SpeechRecognition** (Chrome/Edge) for live captions; Whisper WASM available in codebase for optional paths |
+| **Summarize** | LM Studio on MOM server (`qwen2.5-3b-instruct` or configured model) |
+| **Store** | SQLite on MOM server |
+| **MOM document** | **Minutes of Meeting** template → structured editor → PDF |
+| **Share** | Export page → Microsoft Graph mail |
+| **Calendar** | Outlook integration via MS Graph (`/calendar` page) |
+| **SSO** | Portal Entra ID → YARP injects `X-User-*` headers |
+
+---
+
+## Production Architecture
+
+```
+Employee Browser (HTTPS)
+│
+▼
+DMSSRV — IT Online Portal (ASP.NET Core + IIS)
+Site: Issue-Return-System
+Pool: issue-return-system
+Path: C:\inetpub\IssueReturnSystem
+· Entra ID cookie authentication
+· YARP reverse proxy
+· Injects X-Forwarded-By-Portal, X-User-OID, X-User-Email, X-User-Name, X-User-Role
+│
+├── /mom/*     → MOM server :3118 (Next.js)
+└── /mom-api/* → MOM server :5167 (FastAPI)
+
+MOM Server (172.16.1.154)
+· MeetingAssistant-Frontend  (Next.js, port 3118, bind 0.0.0.0)
+· MeetingAssistant-Backend   (FastAPI, port 5167, bind 0.0.0.0)
+· LM Studio                  (port 1234)
+· SQLite                     (meeting_minutes.db)
+```
+
+**Critical deployment rule:** Portal changes go on **DMSSRV only**. MOM service changes go on the **MOM server only**.
+
+---
+
+## Technology Stack
+
+| Area | Technologies |
+|------|----------------|
+| Portal integration | ASP.NET Core, YARP, IIS, Entra ID (OIDC), cookie auth |
+| Frontend | Next.js 14, React 18, TypeScript, Tailwind CSS, Framer Motion |
+| Backend | FastAPI, Python, SQLite, Uvicorn |
+| AI / LLM | LM Studio (local), optional Claude / Groq |
+| Transcription | Browser SpeechRecognition (production UI path); `@xenova/transformers` WASM (optional) |
+| Microsoft 365 | Microsoft Graph — Mail.Send, Calendars.Read, MSAL |
+| Infrastructure | Windows Server, NSSM services, PowerShell deployment scripts |
+| DevOps | Git-based updates, `verify-deployment.ps1`, health diagnostics |
+
+---
+
+## Key Challenges & Resolutions
+
+### 1. 502 Bad Gateway through the portal
+**Cause:** MOM services bound to `127.0.0.1`; YARP on the portal could not reach them over the network.
+**Fix:** Bind to `0.0.0.0`, firewall rules portal → MOM on 3118/5167, `Ensure-MeetingAssistantBindHost` in deployment scripts.
+
+### 2. Portal crash (HTTP 500.30)
+**Cause:** Corrupted `appsettings.json` on DMSSRV (truncated URLs, invalid JSON).
+**Fix:** Restored valid YARP config with `mom-frontend` and `mom-api` routes; documented pool name `issue-return-system`.
+
+### 3. Transcripts not saving after recording
+**Cause:** Frontend/backend contract mismatch; `useRecordingStop` skipped DB save when backend already created meeting ID; silent failures.
+**Fix:** Always persist segments via `POST /recording/save-transcripts`; lenient API validation; surface errors to user.
+
+### 4. Missing templates and broken share/export
+**Cause:** `/templates` empty or 404; wrong API paths on export page.
+**Fix:** Implemented `/templates` with **Minutes of Meeting** + **General Summary**; corrected export and MOM editor routes for `/mom/` base path.
+
+### 5. Dual-server confusion
+**Cause:** Portal fixes applied on MOM server (and vice versa).
+**Fix:** Runbooks separating DMSSRV (portal/YARP) from MOM server (services only).
+
+### 6. SSO without second login
+**Cause:** MOM must trust portal-injected headers.
+**Fix:** YARP claim transforms + FastAPI middleware reading `X-Forwarded-By-Portal` and `X-User-*`.
+
+### 7. Local AI on CPU-only server
+**Cause:** Cloud LLM not primary path for all workloads.
+**Fix:** LM Studio on MOM server with actionable `/api/health` diagnostics.
+
+### 8. Microsoft Graph for email and calendar
+**Cause:** Application permissions, redirect URIs, and token flows.
+**Fix:** Azure app registration, Graph endpoints, calendar prep flow, backend mail as application.
+
+---
+
+## Core User Journey
+
+1. Employee logs into **IT Online Portal** (Entra ID).
+2. Opens **Meeting Assistant** → `https://itonline.algosaibi.sa/mom/`.
+3. **Records** meeting (mic permission).
+4. **Transcript** appears live (browser speech engine).
+5. Stops recording → transcripts saved to SQLite.
+6. **Generate Summary** — selects **Minutes of Meeting** or **General Summary** template.
+7. **MOM editor** — attendees, minutes, action items at `/mom/mom/{meetingId}`.
+8. **Share** → export page → email PDF via Graph.
+
+---
+
+## Summary Templates
+
+| UI name | Template ID | Purpose |
+|---------|-------------|---------|
+| **Minutes of Meeting** | `minutes_of_meeting` | Corporate MOM → opens MOM editor |
+| **General Summary** | `general_summary` | Standard markdown summary |
+
+---
+
+## Deployment Tooling
+
+| Script | Purpose |
+|--------|---------|
+| `scripts/update-from-git.ps1` | Pull, build frontend, restart services |
+| `scripts/restart-services.ps1` | Restart NSSM services |
+| `scripts/diagnose-services.ps1` | Ports, bind host, health probes |
+| `scripts/verify-deployment.ps1` | Post-deploy acceptance checks |
+| `scripts/install-windows-services.ps1` | NSSM install with `-BindHost 0.0.0.0` |
+
+**MOM server redeploy:**
+```powershell
+$Root = "C:\MeetingAssistant\AI-MeetingAssistantSystem"
+powershell -ExecutionPolicy Bypass -File "$Root\scripts\update-from-git.ps1" -Root $Root
+powershell -ExecutionPolicy Bypass -File "$Root\scripts\verify-deployment.ps1" -Root $Root
+```
+
+---
+
+## Acceptance Criteria (Production Sign-Off)
+
+- [ ] Portal loads without 500.30
+- [ ] `https://itonline.algosaibi.sa/mom/` loads while logged in
+- [ ] Record 30s with speech → transcript visible after stop
+- [ ] `POST /mom-api/recording/save-transcripts` → 200
+- [ ] Template dropdown shows **Minutes of Meeting** + **General Summary**
+- [ ] Generate Summary completes (LM Studio online)
+- [ ] MOM editor and export/share work
+- [ ] `GET /mom-api/templates` and `/get-transcript-config` → 200 on MOM server
+
+---
+
+## Resume / LinkedIn One-Liner
+
+> Led end-to-end deployment of an AI Meeting Assistant (MOM) into Al Gosaibi's IT Online Portal — integrating ASP.NET YARP, Next.js, FastAPI, LM Studio, and Microsoft Graph across a two-server Windows architecture with Entra ID SSO, live transcription, and automated Minutes of Meeting generation.
+
+---
+
+## Related Documentation
+
+| Document | Audience |
+|----------|----------|
+| [README.md](README.md) | Developers — quick start |
+| [ASPNET_PORTAL_INTEGRATION.md](ASPNET_PORTAL_INTEGRATION.md) | Portal team — YARP setup |
+| [backend/DEPLOYMENT_NOTES.md](backend/DEPLOYMENT_NOTES.md) | Ops — MOM server deployment |
+| [TESTING_GUIDE.md](TESTING_GUIDE.md) | QA — endpoint and workflow tests |
+| [PROJECT_STATUS.md](PROJECT_STATUS.md) | Roadmap and changelog |

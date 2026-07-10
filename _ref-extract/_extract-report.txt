@@ -1,0 +1,47 @@
+=== RESULTS ===
+---
+Name: fullstack
+Exists: True
+SourceSizeBytes: 12089
+OutputPath: C:\Users\shaha\Projects\shahad-portfolio\_ref-extract\fullstack.txt
+Preview500:
+SHAHAD BUSALEH
+Full Stack Developer
+shahadbusaleh753@gmail.com  |  +966 56 157 5576  |  Eastern Province, Saudi Arabia  |  LinkedIn  |  GitHub  |  Credly  |  Portfolio
+SUMMARY
+Full Stack Developer specialized in building scalable web applications and AI-powered systems, with proven ability to deliver production-ready products under tight deadlines — including a competition-winning AI platform built solo in 7 days. Strong in backend architecture, API development, database design, and enterprise w
+---
+Name: dataanalyst
+Exists: True
+SourceSizeBytes: 11570
+OutputPath: C:\Users\shaha\Projects\shahad-portfolio\_ref-extract\dataanalyst.txt
+Preview500:
+SHAHAD BUSALEH
+Data Analyst
+shahadbusaleh753@gmail.com  |  +966 56 157 5576  |  Eastern Province, Saudi Arabia  |  LinkedIn  |  GitHub  |  Credly
+SUMMARY
+Computer Information Systems graduate with a data analysis foundation in Python, SQL, and Tableau, backed by hands-on software development experience. Turned 10 months of raw IT ticket data into dashboards that drove real operational decisions, and applied machine learning models to healthcare data with 85%+ accuracy. Currently building a predi
+---
+Name: aiapp
+Exists: True
+SourceSizeBytes: 11492
+OutputPath: C:\Users\shaha\Projects\shahad-portfolio\_ref-extract\aiapp.txt
+Preview500:
+SHAHAD BUSALEH
+AI Application Developer | Full Stack Engineer
+shahadbusaleh753@gmail.com  |  +966 56 157 5576  |  Eastern Province, Saudi Arabia  |  LinkedIn  |  GitHub  |  Credly
+SUMMARY
+Full Stack Developer focused on building AI-powered applications, from LLM-integrated products to backend systems that put AI into production. Shipped a competition-winning AI travel platform in 7 days and a privacy-first AI meeting-analysis tool using local open-source models. Comfortable across the stack: API
+---
+Name: portfolio
+Exists: True
+SourceSizeBytes: 68229
+OutputPath: C:\Users\shaha\Projects\shahad-portfolio\_ref-extract\portfolio.txt
+Preview500:
+Shahad Busaleh Project Portfolio
+Travel-In — AI Travel Concierge (Winner – Rkiza V-Camp 2026)
+Project Overview
+Travel-In is an AI-powered travel concierge platform designed to generate fully personalized travel plans based on user preferences such as destination, budget, and trip duration. The system delivers dynamic, editable itineraries that include accommodations, transportation, and activity recommendations.
+The platform follows an AI-first approach, enabling users to continuously modify the
+=== DONE ===
+MissingCount: 0

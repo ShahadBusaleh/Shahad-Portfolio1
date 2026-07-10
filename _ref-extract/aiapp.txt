@@ -1,0 +1,47 @@
+SHAHAD BUSALEH
+AI Application Developer | Full Stack Engineer
+shahadbusaleh753@gmail.com  |  +966 56 157 5576  |  Eastern Province, Saudi Arabia  |  LinkedIn  |  GitHub  |  Credly
+SUMMARY
+Full Stack Developer focused on building AI-powered applications, from LLM-integrated products to backend systems that put AI into production. Shipped a competition-winning AI travel platform in 7 days and a privacy-first AI meeting-analysis tool using local open-source models. Comfortable across the stack: API design, database architecture, and integrating OpenAI/Gemini APIs into real, deployed products. Currently deepening LLM application skills (LangChain, RAG, LangGraph agents) to build more advanced, production-grade AI systems.
+AI PROJECTS
+Travel-In — AI Travel Concierge  (1st Place, Rkiza V-Camp 2026)
+Next.js · Google Gemini AI · Prisma · PostgreSQL · Clerk
+Designed and shipped a production-grade AI platform solo in 7 days, cutting trip-planning time from hours to seconds.
+Integrated Gemini AI for dynamic itinerary generation, plus real-time flight and hotel APIs for live pricing and booking.
+Built the full-stack architecture end to end: APIs, database schema, authentication, and rate limiting for secure API usage.
+MOM Platform — AI Meeting Recording & Analysis Tool
+Local open-source LLM · Web platform
+Built a web-based meeting recording, transcription, and reporting platform powered by a locally-hosted open-source AI model.
+Eliminated third-party subscription costs and kept sensitive meeting data on-premise, meeting internal privacy requirements.
+AI Writing Platform
+ASP.NET Core · OpenAI API
+Built an AI-powered writing platform for grammar correction, content enhancement, and creative idea generation via the OpenAI API.
+Developed the end-to-end system supporting publishing and reader/writer interaction.
+EXPERIENCE
+Software Engineer | Tamheer Trainee  |  Khalifa A. Algosaibi GroupDec 2025 – June 2026
+Built the MOM Platform (above) and an internal IT equipment management system that digitized issuance/return workflows, improving tracking, approval flow, and auditability.
+Managed and customized the iTop ITSM system, improving ticket workflows and asset tracking accuracy.
+Automated reporting across systems, reducing manual effort and improving operational visibility.
+Full Stack Developer | Trainee & Volunteer  |  IAU – Deanship of Scientific Research & InnovationAug 2025 – Jan 2026
+Fixed backend logic issues and shipped feature enhancements in an ASP.NET Core MVC system.
+Implemented full Arabic–English localization for multilingual support.
+Optimized database queries using EF Core and LINQ.
+IT Trainee (COOP Program)  |  GAC – DammamJun 2025 – Aug 2025
+Analyzed 10 months of IT ticket data and built dashboards to inform operational planning.
+SKILLS
+AI & Integration: OpenAI API, Google Gemini AI, Prompt Engineering, LangChain (in progress), RAG systems (in progress), LangGraph (in progress), local LLM inference.
+Full Stack Development: React (Next.js), TypeScript, JavaScript, Tailwind, Node.js, ASP.NET Core MVC, Python, C#, REST APIs.
+Data & Cloud: PostgreSQL, Prisma, EF Core, SQL, Microsoft Azure, Git/GitHub.
+Analytical: Problem Solving, Data Interpretation, Process Optimization, Reporting.
+EDUCATION
+B.S. in Computer Information Systems
+Imam Abdulrahman Bin Faisal University, Saudi Arabia | Aug 2020 – Aug 2025
+CERTIFICATIONS
+Azure AI Fundamentals — Microsoft
+ChatGPT Prompt Engineering for Developers — DeepLearning.AI
+Chatbot Development with IBM Watson Assistant — IBM SkillsBuild
+Code Generation & Optimization Using IBM Granite — IBM SkillsBuild
+Vibe Coding 101 with Replit — DeepLearning.AI
+Git Essentials — Satr Platform
+LANGUAGES
+Arabic (Native)  |  English (Professional)

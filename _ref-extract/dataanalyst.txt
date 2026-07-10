@@ -1,0 +1,46 @@
+SHAHAD BUSALEH
+Data Analyst
+shahadbusaleh753@gmail.com  |  +966 56 157 5576  |  Eastern Province, Saudi Arabia  |  LinkedIn  |  GitHub  |  Credly
+SUMMARY
+Computer Information Systems graduate with a data analysis foundation in Python, SQL, and Tableau, backed by hands-on software development experience. Turned 10 months of raw IT ticket data into dashboards that drove real operational decisions, and applied machine learning models to healthcare data with 85%+ accuracy. Currently building a predictive maintenance project on NASA's CMAPSS turbofan dataset, working through EDA, feature engineering, and benchmarking. Comfortable owning a dataset end to end: cleaning, analysis, visualization, and communicating findings to non-technical stakeholders.
+KEY PROJECTS
+Predictive Maintenance — NASA CMAPSS Turbofan Dataset
+Python · Pandas · scikit-learn · In Progress
+Working through exploratory data analysis on turbofan engine degradation data to identify sensor trends and near-constant sensors ahead of feature engineering.
+Targeting a benchmark comparison against published CMAPSS results, aimed at KAUST AI program admission and industrial applications (e.g., Aramco, SABIC).
+IT Ticket Data Analysis Project
+Excel · Tableau · Data Cleaning · Statistical Analysis
+Analyzed 10 months of IT support ticket data to surface operational patterns, overcoming mixed time formats and inconsistent categorization.
+Built interactive Tableau dashboards revealing peak demand periods and category relationships, presenting strategic recommendations for resource planning.
+Data Mining & Warehousing — Indian Liver Patient Dataset
+Python · Pandas · NumPy · Machine Learning
+Applied Logistic Regression, Decision Trees, and Random Forest models, reaching 85%+ predictive accuracy through systematic preprocessing and feature engineering.
+Evaluated models using confusion matrices and standard performance metrics.
+EXPERIENCE
+Software Engineer | Tamheer Trainee  |  Khalifa A. Algosaibi GroupDec 2025 – June 2026
+Automated reporting and streamlined workflows across systems, reducing manual effort and improving operational visibility for IT operations.
+Managed the iTop ITSM system, improving ticket workflows and asset tracking accuracy through better data structuring.
+Designed an internal IT equipment management system, digitizing manual tracking into an auditable, structured process.
+IT Trainee (COOP Program)  |  GAC – DammamJun 2025 – Aug 2025
+Led an IT ticket data analysis project: analyzed 10 months of support ticket data, identified peak periods and seasonal trends, and delivered strategic recommendations using Tableau and Excel.
+Managed daily IT operations for devices and provided technical support and ticket resolution.
+Full Stack Developer | Trainee & Volunteer  |  IAU – Deanship of Scientific Research & InnovationAug 2025 – Jan 2026
+Improved database logic with EF Core, LINQ queries, and SQL optimizations.
+Fixed backend logic issues and enhanced features in an ASP.NET Core MVC system.
+SKILLS
+Data & Analytics: SQL, MySQL, Oracle, NoSQL, Excel, Tableau, Power BI, Pandas, NumPy.
+Machine Learning: scikit-learn, Feature Engineering, Predictive Modeling, Model Evaluation.
+Programming: Python, C#, Java, JavaScript, SQL.
+Tools & Cloud: Microsoft Azure, Git/GitHub, Visual Studio.
+Analytical & Business: Problem Solving, Data Interpretation, Process Optimization, Strategic Planning, Reporting, Presentation.
+EDUCATION
+B.S. in Computer Information Systems
+Imam Abdulrahman Bin Faisal University, Saudi Arabia | Aug 2020 – Aug 2025
+CERTIFICATIONS
+Data Analysis Essentials — Cisco Networking Academy (NetAcad), 30-hour program
+Azure AI Fundamentals — Microsoft
+Prerequisite Courses of Artificial Intelligence – Python Basics — Coursera
+ChatGPT Prompt Engineering for Developers — DeepLearning.AI
+Chatbot Development with IBM Watson Assistant — IBM SkillsBuild
+LANGUAGES
+Arabic (Native)  |  English (Professional)

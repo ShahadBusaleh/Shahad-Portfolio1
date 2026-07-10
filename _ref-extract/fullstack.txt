@@ -1,0 +1,56 @@
+SHAHAD BUSALEH
+Full Stack Developer
+shahadbusaleh753@gmail.com  |  +966 56 157 5576  |  Eastern Province, Saudi Arabia  |  LinkedIn  |  GitHub  |  Credly  |  Portfolio
+SUMMARY
+Full Stack Developer specialized in building scalable web applications and AI-powered systems, with proven ability to deliver production-ready products under tight deadlines — including a competition-winning AI platform built solo in 7 days. Strong in backend architecture, API development, database design, and enterprise workflow systems, spanning React/Next.js, ASP.NET Core, Node.js, and PostgreSQL/SQL Server. Comfortable owning a project end to end: architecture, implementation, security, and production deployment.
+EXPERIENCE
+Software Engineer | Tamheer Trainee  |  Khalifa A. Algosaibi GroupDec 2025 – June 2026
+Designed and developed an internal IT equipment management system from scratch (ASP.NET Core MVC, EF Core, SQL Server), digitizing issuance/return requests and improving request tracking, approval flow, and auditability.
+Built a web-based meeting recording, analysis, and reporting platform using a local open-source AI model, eliminating third-party subscription costs and enhancing data privacy compliance.
+Managed and customized the iTop ITSM system, improving ticket workflows, asset tracking accuracy, and service response efficiency.
+Automated reporting and streamlined workflows across systems, reducing manual effort and improving operational visibility for IT operations.
+Full Stack Developer | Trainee & Volunteer  |  IAU – Deanship of Scientific Research & InnovationAug 2025 – Jan 2026
+Fixed backend logic issues and enhanced features in an ASP.NET Core MVC research-management system used by multiple academic roles.
+Implemented full Arabic–English localization using .resx files and culture middleware for full UI translation.
+Optimized database queries and logic using EF Core and LINQ, improving state tracking and search/filter performance.
+IT Trainee (COOP Program)  |  GAC – DammamJun 2025 – Aug 2025
+Analyzed 10 months of IT ticket data and built dashboards to improve operational planning.
+PROJECTS
+Travel-In — AI Travel Concierge  (1st Place, Rkiza V-Camp 2026)
+Next.js · Gemini AI · Prisma · PostgreSQL · Clerk
+Built and shipped a production-grade AI platform solo in 7 days, reducing trip-planning time from hours to seconds.
+Developed the full-stack architecture (APIs, database, services) and integrated AI for itinerary generation.
+Implemented authentication, rate limiting, and secure API handling; integrated real-time flight and hotel APIs for dynamic pricing and booking.
+IT Equipment Issuance Management System
+ASP.NET Core MVC · EF Core · SQL Server · Microsoft Graph API · QuestPDF
+Built an enterprise-grade multi-role approval workflow (Preparer → Issuer → Receiver) with role-based access control.
+Integrated Microsoft Graph API for automated email notifications and Microsoft-based authentication for secure sign-in.
+Implemented bilingual (English/Arabic) PDF generation and deployed the system to a private IIS server environment.
+Research Mission Facilitation System
+ASP.NET Core MVC · EF Core · LINQ · SQL Server
+Contributed to a multi-role research-approval platform supporting scientific and ethical review workflows for internal/external researchers.
+Implemented full Arabic–English localization and optimized database queries for search, filtering, and workflow state tracking.
+AI Writing Platform
+ASP.NET Core · OpenAI API
+Built an AI-powered platform for content generation, grammar correction, and idea enhancement, supporting end-to-end publishing and user interaction.
+SKILLS
+Front-End: HTML, CSS, JavaScript, TypeScript, React (Next.js), Tailwind.
+Back-End: Python, C#, Java, PHP, C++, ASP.NET Core MVC, Node.js, REST APIs.
+Databases: PostgreSQL, SQL Server, Prisma, EF Core, LINQ.
+Cloud & Tools: Microsoft Azure, Git, GitHub, PowerShell, Clerk Auth, IIS Deployment, API Integration.
+AI & Integration: OpenAI API, Google Gemini AI, Prompt Engineering.
+Analytical & Business: Problem Solving, Data Interpretation, Process Optimization, Strategic Planning, Reporting.
+EDUCATION
+B.S. in Computer Information Systems
+Imam Abdulrahman Bin Faisal University, Saudi Arabia | Aug 2020 – Aug 2025
+CERTIFICATIONS
+Azure AI Fundamentals — Microsoft
+Prerequisite Courses of Artificial Intelligence, Python Basics — Coursera
+ChatGPT Prompt Engineering for Developers — DeepLearning.AI
+Chatbot Development with IBM Watson Assistant — IBM SkillsBuild
+Code Generation & Optimization Using IBM Granite — IBM SkillsBuild
+Vibe Coding 101 with Replit — DeepLearning.AI
+Git Essentials — Satr Platform
+Software Security Testing — IPA-Ethrai
+LANGUAGES
+Arabic (Native)  |  English (Professional)
