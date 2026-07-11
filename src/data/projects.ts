@@ -20,11 +20,7 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-<<<<<<< HEAD
     id: "meeting-assistant",
-=======
-    id: "mom",
->>>>>>> d92067e69fd686d2f612a9f0fe303921100aa4bd
     title: "AI Meeting Assistant",
     titleAr: "مساعد الاجتماعات الذكي",
     role: "Enterprise Integration & Full-Stack Delivery",
