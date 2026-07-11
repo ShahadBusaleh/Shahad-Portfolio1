@@ -3,6 +3,9 @@
 import { useLanguage } from "./LanguageProvider";
 import { ui } from "@/lib/i18n";
 
+/** Set to true to show the Experience column again. */
+const SHOW_EXPERIENCE = false;
+
 const experience = [
   {
     en: {
@@ -10,7 +13,7 @@ const experience = [
       company: "Khalifa A. Algosaibi Group",
       period: "Dec 2025 – Jun 2026",
       points: [
-        "Deployed AI Meeting Assistant (MOM) into enterprise IT portal with YARP, Entra ID SSO, and Microsoft Graph",
+        "Deployed AI Meeting Assistant into enterprise IT portal with YARP, Entra ID SSO, and Microsoft Graph",
         "Built IT equipment management system from scratch — digitizing issuance and return workflows",
         "Automated reporting and streamlined IT operations across systems",
       ],
@@ -56,6 +59,9 @@ const experience = [
       points: [
         "Analyzed 10 months of IT ticket data and built Tableau dashboards",
         "Delivered strategic recommendations for resource planning",
+        "Wiped and prepared laptops with secure wiping tools when employees left the company",
+        "Installed and configured software for new employees as part of onboarding",
+        "Resolved daily IT support tickets alongside the supervisor",
       ],
     },
     ar: {
@@ -65,6 +71,9 @@ const experience = [
       points: [
         "تحليل 10 أشهر من بيانات تذاكر IT وبناء لوحات Tableau",
         "تقديم توصيات استراتيجية لتخطيط الموارد",
+        "مسح وإعداد أجهزة اللابتوب بأدوات المسح الآمن عند مغادرة الموظفين",
+        "تثبيت وإعداد البرامج للموظفين الجدد ضمن عملية التعيين",
+        "حل تذاكر دعم IT اليومية بالتعاون مع المشرف",
       ],
     },
   },
@@ -102,39 +111,47 @@ export function About() {
           <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-brand-teal" />
         </div>
 
-        <div className="grid gap-12 lg:grid-cols-2">
-          <div>
-            <h3 className="mb-6 text-xl font-bold text-brand-teal-dark">
-              {t.experience}
-            </h3>
-            <div className="space-y-8">
-              {experience.map((item) => {
-                const data = item[locale];
-                return (
-                  <div
-                    key={data.company}
-                    className="border-s-2 border-brand-teal ps-5"
-                  >
-                    <p className="font-semibold text-brand-teal-dark">
-                      {data.role}
-                    </p>
-                    <p className="text-sm text-brand-teal">{data.company}</p>
-                    <p className="mb-3 text-xs text-zinc-500">{data.period}</p>
-                    <ul className="space-y-1.5">
-                      {data.points.map((point) => (
-                        <li
-                          key={point}
-                          className="text-sm text-zinc-600 before:me-2 before:text-brand-teal before:content-['•']"
-                        >
-                          {point}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                );
-              })}
+        <div
+          className={
+            SHOW_EXPERIENCE
+              ? "grid gap-12 lg:grid-cols-2"
+              : "mx-auto max-w-2xl space-y-8"
+          }
+        >
+          {SHOW_EXPERIENCE && (
+            <div>
+              <h3 className="mb-6 text-xl font-bold text-brand-teal-dark">
+                {t.experience}
+              </h3>
+              <div className="space-y-8">
+                {experience.map((item) => {
+                  const data = item[locale];
+                  return (
+                    <div
+                      key={data.company}
+                      className="border-s-2 border-brand-teal ps-5"
+                    >
+                      <p className="font-semibold text-brand-teal-dark">
+                        {data.role}
+                      </p>
+                      <p className="text-sm text-brand-teal">{data.company}</p>
+                      <p className="mb-3 text-xs text-zinc-500">{data.period}</p>
+                      <ul className="space-y-1.5">
+                        {data.points.map((point) => (
+                          <li
+                            key={point}
+                            className="text-sm text-zinc-600 before:me-2 before:text-brand-teal before:content-['•']"
+                          >
+                            {point}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  );
+                })}
+              </div>
             </div>
-          </div>
+          )}
 
           <div className="space-y-8">
             <div>

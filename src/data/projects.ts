@@ -20,17 +20,17 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    id: "mom",
-    title: "AI Meeting Assistant (MOM)",
+    id: "meeting-assistant",
+    title: "AI Meeting Assistant",
     titleAr: "مساعد الاجتماعات الذكي",
     role: "Enterprise Integration & Full-Stack Delivery",
     roleAr: "تكامل مؤسسي وتطوير Full Stack",
     description:
-      "Enterprise web app for recording meetings, live transcription, AI summaries, formal Minutes of Meeting documents, PDF export, and Microsoft Graph email — integrated into a corporate IT portal with Entra ID SSO via YARP reverse proxy.",
+      "Enterprise web app for recording meetings, live transcription, AI summaries, formal meeting minutes documents, PDF export, and Microsoft Graph email — integrated into a corporate IT portal with Entra ID SSO via YARP reverse proxy.",
     descriptionAr:
       "تطبيق مؤسسي لتسجيل الاجتماعات والنسخ المباشر والملخصات بالذكاء الاصطناعي ومحاضر الاجتماعات الرسمية وتصدير PDF والبريد عبر Microsoft Graph — مدمج في بوابة IT مع تسجيل دخول موحد عبر YARP.",
     highlights: [
-      "Two-server Windows architecture: ASP.NET portal + Next.js/FastAPI MOM stack",
+      "Two-server Windows architecture: ASP.NET portal + Next.js/FastAPI stack",
       "SSO without second login — YARP injects X-User headers from Entra ID",
       "Local LM Studio summarization with browser-side transcription path",
       "Production troubleshooting: 502 gateway, transcript persistence, template routing",
