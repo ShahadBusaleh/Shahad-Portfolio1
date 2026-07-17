@@ -1,6 +1,8 @@
 type LogoProps = {
   size?: "sm" | "md" | "lg";
   showName?: boolean;
+  /** Stronger contrast when placed on brand-teal backgrounds */
+  onTeal?: boolean;
   className?: string;
 };
 
@@ -10,8 +12,14 @@ const sizes = {
   lg: { box: 120, initials: 52, name: 14 },
 };
 
-export function Logo({ size = "md", showName = false, className = "" }: LogoProps) {
+export function Logo({
+  size = "md",
+  showName = false,
+  onTeal = false,
+  className = "",
+}: LogoProps) {
   const s = sizes[size];
+  const fill = onTeal ? "#3d5a62" : "#5a7d85";
 
   return (
     <div className={`inline-flex flex-col items-center gap-1 ${className}`}>
@@ -22,8 +30,9 @@ export function Logo({ size = "md", showName = false, className = "" }: LogoProp
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         aria-label="Shahad Busaleh logo"
+        className={onTeal ? "ring-1 ring-brand-cream/25 rounded-xl" : undefined}
       >
-        <rect width="120" height="120" rx="16" fill="#5a7d85" />
+        <rect width="120" height="120" rx="16" fill={fill} />
         <text
           x="18"
           y="78"

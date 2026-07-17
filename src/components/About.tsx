@@ -2,6 +2,7 @@
 
 import { useLanguage } from "./LanguageProvider";
 import { ui } from "@/lib/i18n";
+import { Reveal } from "./Reveal";
 
 /** Set to true to show the Experience column again. */
 const SHOW_EXPERIENCE = false;
@@ -104,12 +105,12 @@ export function About() {
   return (
     <section id="about" className="bg-white px-6 py-24">
       <div className="mx-auto max-w-6xl">
-        <div className="mb-12 text-center">
+        <Reveal className="mb-12 text-center">
           <h2 className="text-3xl font-bold text-brand-teal-dark sm:text-4xl">
             {t.about}
           </h2>
           <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-brand-teal" />
-        </div>
+        </Reveal>
 
         <div
           className={
@@ -119,7 +120,7 @@ export function About() {
           }
         >
           {SHOW_EXPERIENCE && (
-            <div>
+            <Reveal>
               <h3 className="mb-6 text-xl font-bold text-brand-teal-dark">
                 {t.experience}
               </h3>
@@ -150,10 +151,10 @@ export function About() {
                   );
                 })}
               </div>
-            </div>
+            </Reveal>
           )}
 
-          <div className="space-y-8">
+          <Reveal className="space-y-8" delay={80}>
             <div>
               <h3 className="mb-4 text-xl font-bold text-brand-teal-dark">
                 {t.education}
@@ -189,7 +190,7 @@ export function About() {
                   : "العربية (لغة أم) · الإنجليزية (احترافية)"}
               </p>
             </div>
-          </div>
+          </Reveal>
         </div>
       </div>
     </section>

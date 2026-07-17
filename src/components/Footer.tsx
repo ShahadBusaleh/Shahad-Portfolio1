@@ -13,7 +13,7 @@ export function Footer() {
     <footer className="border-t border-brand-teal/10 bg-brand-teal px-6 py-10">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-6 sm:flex-row">
         <div className="flex items-center gap-3">
-          <Logo size="sm" />
+          <Logo size="sm" onTeal />
           <p className="text-sm text-brand-cream/70">
             © {year} Shahad Busaleh
           </p>
